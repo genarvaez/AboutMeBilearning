@@ -5,7 +5,7 @@
     tools:context="cl.cutiko.aboutme.EmailFragment">
 
     <Button
-        android:text="EMAIL"
+        android:text="@string/email"
         android:id="@+id/contactBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
