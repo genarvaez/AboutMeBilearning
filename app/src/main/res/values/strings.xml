@@ -90,6 +90,8 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string name="bio">¡Hola! Mi nombre es Génesis. \nSoy Desarrolladora web junior. Soy Venezolana, graduada como licenciada en enfermería pero sin ejercer.
+        Descubrí el mundo del desarrollo y estoy muy entusiasmada de aprender cosas nuevas." </string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

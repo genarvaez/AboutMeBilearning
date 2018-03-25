@@ -3,12 +3,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="cl.cutiko.aboutme.ContactActivity">
+    tools:context="cl.cutiko.aboutme.ContactActivity"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:text="+56986572031"
+        android:gravity="center"
+        android:id="@+id/phone"/>
+
+    <TextView
+        android:id="@+id/linkedIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:drawableLeft="@mipmap/in"
+        android:text="LinkedIn"
+        android:gravity="center" />
 
     <fragment
         android:id="@+id/emailFragment"
         android:name="cl.cutiko.aboutme.EmailFragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
+
+
 
 </LinearLayout>

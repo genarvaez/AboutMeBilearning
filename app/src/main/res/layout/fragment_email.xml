@@ -4,10 +4,50 @@
     android:layout_height="match_parent"
     tools:context="cl.cutiko.aboutme.EmailFragment">
 
-    <Button
-        android:text="@string/email"
-        android:id="@+id/contactBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
 
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Subject"
+            android:drawableRight="@drawable/send"
+            android:padding="10dp"
+            android:id="@+id/subject"
+            android:visibility="gone"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Message"
+            android:drawableRight="@drawable/send"
+            android:padding="10dp"
+            android:layout_below="@+id/subject"
+            android:id="@+id/message"
+            android:visibility="gone"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/send"
+            android:layout_below="@+id/message"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ESCRIBIRME AHORA"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_below="@+id/message"
+            android:id="@+id/writeMe"/>
+    </RelativeLayout>
 </FrameLayout>
